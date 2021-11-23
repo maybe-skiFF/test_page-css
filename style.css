@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+._conteiner {
+   max-width: 1440px;
+   margin: 0px auto;
+}
+
+.header-wrapper {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   /* padding: 15px 100px; */
+   height: 10vh;
+   /* width: 1440px; */
+   /* padding-left: 188px; */
+}
+
+.nav-list {
+   /* display: inline-block; */
+   position: absolute;
+   padding-left: 188px;
+   padding-top: 25px;
+   /* margin-left: 188px; */
+}
+
+.nav-list > li {
+   display: inline-block;
+   margin-right: 28px;
+}
+
+.logo {
+   display: inline-block;
+   margin: 0 360px 0 120px;
+   position: absolute;
+   padding-top: 22px;
+   padding-left: 680px;
+   /* margin-left: 680px; */
+}
+
+.links {
+   /* display: inline-block; */
+   position: relative;
+   padding-left: 1140px;
+   padding-top: 22px;
+   /* margin-left: 1139px; */
+}
+
+.links img {
+   margin-right: 20px;
+}
+
+.main-page {
+   height: 90vh;
+   background-color: #F0EFEB;
+   /* width: 1440px; */
+}
+
+.title {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 60px;
+}
+
+.text {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 24px;
+   padding-top: 42px;
+   padding-bottom: 26px;
+}
+
+.button {
+   background: #000;
+   border-radius: 100px;
+   width: 130px;
+   height: 36px;
+   color: #fff;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 17px;
+   border: none;
+}
+
+.main-contents-wrapper {
+   display: inline-block;
+   padding-left: 188px;
+   padding-right: 80px;
+   padding-top: 90px;
+   /* box-sizing: content-box; */
+   position: absolute;
+}
+
+.main-img {
+   display: inline-block;
+   padding-right: 60px;
+   padding-top: 6px;
+   padding-left: 781px;
+   /* box-sizing: content-box; */
+}
+
+.guides-page {
+   text-align: center;
+   /* height: 100vh; */
+   /* width: 1440px; */
+}
+
+.guides-title {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 36px;
+   padding-top: 60px;
+}
+
+.guides-text1 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+   padding-top: 27px;
+}
+
+.guides-text2 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+   padding-top: 47px;
+}
+
+.guides {
+
+}
+
+.best-sellers {
+
+}
+
+.best-sellers-title {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 36px;
+   padding-top: 88px;
+}
+
+.cards {
+
+}
+
+/* мужик француз блок с картой и подписью к ней */
+
+.french-culture {
+   position: absolute;
+   padding-top: 52px;
+   padding-left: 191px;
+   padding-bottom: 10px;
+   text-align: center;
+}
+
+.french-man-text1 {
+   padding-top: 27px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 17px;
+}
+
+.french-man-text2 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 17px;
+   padding-top: 17px;
+}
+
+.french-man-text3 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 17px;
+   padding-top: 10px;
+   text-decoration: underline;
+}
+
+
+/* женщина француженка блок с картой и подписью к ней */
+
+.french-people {
+   position: absolute;
+   padding-top: 52px;
+   padding-left: 563px;
+   padding-bottom: 10px;
+   text-align: center;
+}
+
+.french-women-text1 {
+   padding-top: 27px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 17px;
+}
+
+.french-women-text2 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 17px;
+   padding-top: 17px;
+}
+
+.french-women-text3 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 17px;
+   padding-top: 10px;
+   text-decoration: underline;
+}
+
+
+/* женщина немка блок с картой и подписью к ней */
+
+.german-culture {
+   position: absolute;
+   padding-top: 52px;
+   padding-left: 937px;
+   padding-bottom: 10px;
+   text-align: center;
+}
+
+.german-women-text1 {
+   padding-top: 27px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 17px;
+}
+
+.german-women-text2 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 17px;
+   padding-top: 17px;
+}
+
+.german-women-text3 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 17px;
+   padding-top: 10px;
+   text-decoration: underline;
+}
